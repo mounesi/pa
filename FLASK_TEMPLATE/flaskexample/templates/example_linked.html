@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Learn More</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../static/css/bootstrap-theme.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- here's some css to change the specific look of this page -->
+    <style type="text/css">
+        html, body {
+          height: 100%;
+        }
+        .container{
+          width: 1025px;
+        }
+        .vertical-center {
+          height: 100%;
+          width: 100%;
+          text-align: center;  /* align the inline(-block) elements horizontally */
+          font: 0/0 a;         /* remove the gap between inline(-block) elements */
+        }
+        .vertical-center:before {    /* create a full-height inline block pseudo=element */
+          content: ' ';
+          display: inline-block;
+          vertical-align: middle;  /* vertical alignment of the inline element */
+          height: 100%;
+        }
+        .vertical-center > .container {
+          max-width: 100%;
+          background-color: gold;
+          display: inline-block;
+          vertical-align: middle;  /* vertical alignment of the inline element */
+          font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;        /* <-- reset the font property */
+        }
+        @media (max-width: 768px) {
+          .vertical-center:before {
+            /* height: auto; */
+            display: none;
+          }
+        }
+    </style>
+
+
+  </head>
+  <!-- insert background images!-->
+  <body style="background:url('../static/images/bokeh.jpg'); background-attachment:fixed; background-repeat: no-repeat;">
+
+    <div class="container">
+    <div class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-left">
+          <!-- don't forget to link pages back to home-->
+          <li role="presentation"><a href="/">&larr; Back to Home</a></li>
+        </ul>
+      </nav>
+    </div>
+
+      <div style="background:#FFFFFF00; !important" class="jumbotron">
+        <h1>Some text here</h1>
+        <p class="lead">Protip: simple high resolution background images often take your web app look from 0 to 100</p>
+      <p class="lead">You can also include external links:
+        this web app was developed by <a href="https://www.linkedin.com/in/donaldbleebrown/">Donald Lee-Brown</a>.</p>
+      </div>
+
+    </div> <!-- /container -->
+
+  </body>
+</html>
