@@ -2,6 +2,9 @@
 data/
 .plan
 test.py
+.ipynb_checkpoints
+.vscode
+
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
