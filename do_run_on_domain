@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -e
+
+source ../venv/bin/activate
+python -c "import os;print(os.path)"
+
+cd ./src
+python run_dash.py
