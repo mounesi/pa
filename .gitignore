@@ -4,7 +4,9 @@ data/
 test.py
 .ipynb_checkpoints
 .vscode
-
+.idea
+misc.xml
+instruction
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*

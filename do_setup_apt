@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -e
+
+#python3 is already installed
+sudo apt update
+sudo apt install virtualenv
+
+#sudo apt-get install tmux
+#sudo apt install nginx
+sudo ufw enable
+sudo ufw allow http
+sudo ufw allow 8050
+sudo ufw status
+
+systemctl status nginx
+ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
+
+

@@ -1,0 +1,29 @@
+# create an AWS account
+set keypair
+set security group
+
+initiate an instance m4.xlarge
+assign that to the security group
+assign the elastic ip addr
+
+Note after assigning elastic addr try to ssh to the server
+go to name cheap and under advanced setting reroute the elastic ip address
+    _ type A record Host @, Value EipAddr, TTL 5 min
+
+ssh to the instance:
+    sudo apt update
+    sudo apt install virtualenv
+
+check the status of firewall:
+    sudo ufw status
+
+
+if firewall is disabled
+    sudo ufw enable
+    sudo ufw allow http
+    sudo ufw allow 8501
+
+python3 -m pip install streamlit
+    streamlit run https://raw.githubusercontent.com/streamlit/demo-uber-nyc-pickups/master/app.py
+
+Then it is running on http://sohiai.com:8501/
