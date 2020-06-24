@@ -5,4 +5,4 @@ source ../venv/bin/activate
 python -c "import os;print(os.path)"
 
 cd ./src
-python run_dash.py
+streamlit run run_streamlit.py
