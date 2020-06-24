@@ -23,7 +23,10 @@ if firewall is disabled
     sudo ufw allow http
     sudo ufw allow 8501
 
-python3 -m pip install streamlit
+#pip installs
+    pip install streamlit
+    pip install plotly
+    pip install pandas
     streamlit run https://raw.githubusercontent.com/streamlit/demo-uber-nyc-pickups/master/app.py
 
 Then it is running on http://sohiai.com:8501/
