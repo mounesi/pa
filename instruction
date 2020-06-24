@@ -15,13 +15,9 @@ ssh to the instance:
     sudo apt install virtualenv
 
 check the status of firewall:
-    sudo ufw status
+sudo ufw allow 8501
+IMPORTANT: NEVER ENABLE FIREWALL
 
-
-if firewall is disabled
-    sudo ufw enable
-    sudo ufw allow http
-    sudo ufw allow 8501
 
 #pip installs
     pip install streamlit

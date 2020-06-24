@@ -4,13 +4,15 @@ set -e
 #python3 is already installed
 sudo apt update
 sudo apt install virtualenv
+sudo ufw allow 8501
+
 
 #sudo apt-get install tmux
 
-sudo ufw enable
-sudo ufw allow http
-sudo ufw allow 8050
-sudo ufw status
+#(NEVER ENABLE FIREWALL)
+#sudo ufw allow http
+#sudo ufw allow 8502
+#sudo ufw status
 
 
 
