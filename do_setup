@@ -10,10 +10,11 @@ virtualenv -p python3 ./venv
 source ./venv/bin/activate
 python -c "import os;print(os.path)"
 
-pip install notebook
+#pip install notebook
+pip install streamlit
 pip install plotly
 pip install pandas
-pip install dash
+#pip install dash
 
 pwd
 
