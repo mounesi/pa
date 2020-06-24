@@ -1,6 +1,6 @@
 # create an AWS account
 set keypair
-set security group
+set security group for 8501 sustom TCP from anywhere
 
 initiate an instance m4.xlarge
 assign that to the security group
@@ -10,6 +10,9 @@ Note after assigning elastic addr try to ssh to the server
 go to name cheap and under advanced setting reroute the elastic ip address
     _ type A record Host @, Value EipAddr, TTL 5 min
 
+
+(run do_setup_app)
+explanation:
 ssh to the instance:
     sudo apt update
     sudo apt install virtualenv
@@ -18,7 +21,8 @@ check the status of firewall:
 sudo ufw allow 8501
 IMPORTANT: NEVER ENABLE FIREWALL
 
-
+(run do_setup)
+explanation:
 #pip installs
     pip install streamlit
     pip install plotly
@@ -26,3 +30,4 @@ IMPORTANT: NEVER ENABLE FIREWALL
     streamlit run https://raw.githubusercontent.com/streamlit/demo-uber-nyc-pickups/master/app.py
 
 Then it is running on http://sohiai.com:8501/
+# to update ssh to the directory and git pull the repo uder the test

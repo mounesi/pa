@@ -7,12 +7,5 @@ sudo apt install virtualenv
 sudo ufw allow 8501
 
 
-#sudo apt-get install tmux
-
-#(NEVER ENABLE FIREWALL)
-#sudo ufw allow http
-#sudo ufw allow 8502
-#sudo ufw status
-
 
 
