@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
+cd ..
 source ../venv/bin/activate
 python -c "import os;print(os.path)"
 
