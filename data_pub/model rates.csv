@@ -1,0 +1,3 @@
+,Random Forest Regression,Linear Regression,Logistic Regression,SGD Regression
+Mean Absolute Error[rate],1.37,1.1,0.92,1.13
+Accuracy[%],77.24,81.31,81.8,81.06
