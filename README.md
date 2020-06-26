@@ -2,8 +2,7 @@
 ## a machine vision tool for roadway assessment.
 check the web application by clicking [here!](http://sohiai.com:8501/) it may take a minute to load.
 
-![RoadAssess Web App](https://drive.google.com/file/d/1EAtp-DT-3zR0wa9yrkyRDztpoJFDFsX8/view?usp=sharing)
-Format: ![Alt Text](url)
+![image](https://drive.google.com/uc?export=view&id=1EAtp-DT-3zR0wa9yrkyRDztpoJFDFsX8)
 
 
 ## Problem Statement
