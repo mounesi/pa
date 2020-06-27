@@ -58,6 +58,8 @@ In this project, the speed of processing is improved to over 30 frames per secon
 
 ![machine vision vs manucipility](/images/mv_manu.png)
 
+![prediction vs label](/images/pred_label.png)
+Screen Shot 2020-06-26 at 8.46.41 PM
 
 ## Source
 [1] https://www.irvingtonny.gov/DocumentCenter/View/8036/Public-Works-Roadway-Pavement-Report?bidId=
