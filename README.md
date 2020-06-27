@@ -21,9 +21,9 @@ It all starts from an image of pavement, which is accessing images from static g
 
 
 ## Machine Vision
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/OxOXjhtULTk/0.jpg)](http://www.youtube.com/watch?v=OxOXjhtULTk)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/OxOXjhtULTk/5.jpg)](http://www.youtube.com/watch?v=OxOXjhtULTk)
 
-[![Alt text](https://youtu.be/OxOXjhtULTk/0.jpg)](https://youtu.be/OxOXjhtULTk)
+note: this is a video click to play
 
 I have manually labeled 3 street on google street view image by an online software called "make sense' and used them for training Mobilnet using the transfer learning technique.  The model was trained with 200,000 epochs and achieved a speed of 31 frames per second. On the right-hand side, these images are examples of crack detection models where the cracks are detected on top, and on the lower one, there is no crack, and the model is not predicting any crack.
 
