@@ -21,6 +21,7 @@ It all starts from an image of pavement, which is accessing images from static g
 
 
 ## Machine Vision
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/OxOXjhtULTk/0.jpg)](http://www.youtube.com/watch?v=OxOXjhtULTk)
 
 [![Alt text](https://youtu.be/OxOXjhtULTk/0.jpg)](https://youtu.be/OxOXjhtULTk)
 
