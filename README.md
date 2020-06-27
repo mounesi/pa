@@ -56,6 +56,7 @@ Currently, there are multiple research papers and old fashion assessment papers,
 In this project, the speed of processing is improved to over 30 frames per second; The scale is expanded to the region and zip code, the design is improved to a friendly user web app, and is extensible for future improvement on every section.
 ![data acquisition](/images/3d_data.png)
 
+![machine vision vs manucipility](/images/mv_manu.png)
 
 
 ## Source
