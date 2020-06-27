@@ -25,7 +25,7 @@ It all starts from an image of pavement, which is accessing images from static g
 ![Alt Text](/images/label.gif)
 
 
-I have manually labeled 3 street on google street view image by an online software called "make sense' and used them for training Mobilnet using the transfer learning technique.  The model was trained with 200,000 epochs and achieved a speed of 31 frames per second. On the right-hand side, these images are examples of crack detection models where the cracks are detected on top, and on the lower one, there is no crack, and the model is not predicting any crack.
+I have manually labeled 3 street on google street view image by an online software called "make sense'[3] and used them for training Mobilnet using the transfer learning technique.  The model was trained with 200,000 epochs and achieved a speed of 31 frames per second. On the right-hand side, these images are examples of crack detection models where the cracks are detected on top, and on the lower one, there is no crack, and the model is not predicting any crack.
 
 ![True Positive](/images/TP.png)
 ![True Negative](/images/TN.png)
@@ -70,3 +70,5 @@ In this project, the speed of processing is improved to over 30 frames per secon
 [1] https://www.irvingtonny.gov/DocumentCenter/View/8036/Public-Works-Roadway-Pavement-Report?bidId=
 
 [2] https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/
+
+[3]https://github.com/SkalskiP/make-sense
