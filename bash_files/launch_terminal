@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -e
+
+cd /Users/ali/Documents/Github/pa
+open -a Terminal "."
