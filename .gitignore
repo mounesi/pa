@@ -1,6 +1,7 @@
 .DS_Store
 data/
 .plan
+.pwpnotes.txt
 test.py
 .ipynb_checkpoints
 .vscode
