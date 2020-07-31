@@ -1,6 +1,7 @@
 .DS_Store
 data/
 notebooks/
+notebooks_1/
 .plan
 .pwpnotes.txt
 test.py
