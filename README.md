@@ -66,7 +66,7 @@ In this project, the speed of processing is improved to over 30 frames per secon
 
 
 
-## Source
+## Sources
 [1] https://www.irvingtonny.gov/DocumentCenter/View/8036/Public-Works-Roadway-Pavement-Report?bidId=
 
 [2] https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/
